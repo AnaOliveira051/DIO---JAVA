@@ -1,5 +1,16 @@
----------------------------------AULA DE BRANCHES ---------------------------------------
+---------------------------------AULA DEBRANCHES--------------------------
 
 O que é?? Ramificações/universo paralelo do repositorio
+
+ - git checkout -b <nome da branch> : cria a branche e troca para ela
+ - git checkout main : para retornar para a main
+ - git branch -v : lista as ultimas versoes/ultimo commit que tem em cada branch
+ - git merge <nome da branch> : para mesclar a branch passada com a main 
+obs.: é necessario estar na branch main
+ - git branch : lista as branch que tem no repositorio
+ - git branch -d <nome da branch> : para excluir a branch
+
+
+
 
 
