@@ -1,0 +1,37 @@
+-----------------------------AULA DE COMANDOS GIT-----------------------------------------
+
+ - git restore : Restaura oque estava no arquivo no ultimo commit
+ - git init : inicia um "repositorio" localmente
+ - git log : Historico dos commit
+ - git commit --amend -m"nova mensagem" : Para trocar a mensagem do ultimo commit 
+ - git commit --amend : abre um "editor" para alterar o nome do ultimo commit para sair 
+apertar esc : Q
+
+ - git reset : para "resetar" o ultimo commit. Tem tres opções git reset 
+	--soft/--mixed/--hard 
+	Dá um git log para mostrar o historico, copia o commit que quer voltar/resetar, 
+digita git reset --soft em seguida o commit que copiou, de git status.
+
+ Comportamento : Pega o commit (atraves do hash que foi passado) e volta para os arquivos que estavam 
+no commit
+
+	 Dá um git log para mostrar o historico, copia o commit que quer voltar/resetar,
+digita git reset --mixed(comando padrão do reset, então da para apenas dá git reset) 
+em seguida o commit que copiou, de git status.
+
+Comportamento : Retornou para o commit passado por hash e adiciona na arvore de trabalho 
+como arquivos untracked, ou seja, não reconhecidos no git, deverá adicionar na area de 
+preparação atraves do git add
+
+	
+ 	Dá um git log para mostrar o historico, copia o commit que quer voltar/resetar,
+digita git reset --hard em seguida o commit que copiou.
+
+Comportamento: Ignorou os outros committs e apagou/retornou/resetou de vez para o 
+commit passado por hash
+
+
+ - git reflog : tras um log dos "comandos" que fiz no git
+
+ - git reset <nome-do-arquivo> ou git restore --staged <nome-do-arquivo>: 
+Remove o arquivo da area de preparacao
