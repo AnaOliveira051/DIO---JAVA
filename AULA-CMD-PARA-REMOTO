@@ -1,3 +1,5 @@
 ----------------------------AULA DE COMANDO PARA ENVIO DO REPO REMOTO----------------------
 
-x
+ - git remote add origin <url> : para conectar os dois repositorios (local com o remoto)
+
+ - git push -u origin main : responsavel por mandar as alterações no repositorio remoto
